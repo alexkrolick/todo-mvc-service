@@ -1,6 +1,6 @@
 {
   "name": "todo-mvc-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mock API for TodoMVC apps",
   "repository": "https://github.com/alexkrolick/todo-mvc-service",
   "main": "dist/todo-mvc-service.min.js",
