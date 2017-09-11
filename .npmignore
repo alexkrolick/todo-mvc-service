@@ -1,0 +1,14 @@
+*~
+~*
+*.tmp
+*.orig
+*.bak
+*.log
+/tmp
+/node_modules
+/src
+/package
+*tar.gz
+*.tgz
+webpack.config.js
+.vscode

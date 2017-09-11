@@ -1,0 +1,10 @@
+{
+  "env": {
+    "production": {
+      "presets": ["es2015", "stage-1"]
+    },
+    "development": {
+      "presets": ["stage-1"]
+    }
+  }
+}
