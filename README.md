@@ -4,7 +4,7 @@ A mock API for [TodoMVC](http://todomvc.com/) apps. Provides a `fetch` method wi
 
 ## Demo
 
-- [TodoMVC With Create-React-App](http://alexkrolick.github.io/todo-mvc-service-demo) ([src](http://github.com/alexkrolick/todo-mvc-service-demo))
+- [TodoMVC With Create-React-App](http://alexkrolick.github.io/todo-mvc-service-demo) ([src](https://github.com/alexkrolick/todo-mvc-service-demo/blob/master/src/App.js))
 
 ## Quick Start
 
