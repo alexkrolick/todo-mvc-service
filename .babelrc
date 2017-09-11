@@ -1,7 +1,8 @@
 {
   "env": {
     "production": {
-      "presets": ["es2015", "stage-1"]
+      "presets": ["es2015", "stage-1"],
+      "plugins": ["transform-runtime"]
     },
     "development": {
       "presets": ["stage-1"]

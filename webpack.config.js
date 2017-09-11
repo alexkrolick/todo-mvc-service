@@ -4,7 +4,7 @@ const webpack = require("webpack")
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "todo-mvc-service.min.js",
+    filename: "todo-mvc-service.js",
     path: path.resolve(__dirname, "dist"),
     library: "todoMVCService",
     libraryTarget: "umd",
@@ -14,14 +14,9 @@ module.exports = {
       {
         test: /\.js$/,
         loader: "babel-loader",
+        exclude: __dirname + "/node_modules",
       },
     ],
   },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false,
-      },
-    }),
-  ],
+  plugins: [],
 }
