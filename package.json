@@ -4,7 +4,6 @@
   "description": "mock API for TodoMVC apps",
   "repository": "https://github.com/alexkrolick/todo-mvc-service",
   "main": "dist/todo-mvc-service.min.js",
-  "module": "lib/index.js",
   "scripts": {
     "test": "echo \"We'll get there someday\" && exit 1",
     "build:dist": "NODE_ENV=production webpack --config=webpack.config.js",
