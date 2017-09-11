@@ -11,7 +11,7 @@ A mock API for [TodoMVC](http://todomvc.com/) apps. Provides a `fetch` method wi
 ```js
 import Todo from 'todo-mvc-service'
 
-Todo.fetch('todos', {
+Todo.fetch('/todos', {
   method: 'POST',
   body: {
     title: 'Buy milk',
