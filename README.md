@@ -42,7 +42,7 @@ console.log(Todo.routes)
 
 ## Known Issues
 
-- Does not work with UglifyJS, so [create-react-app's prod mode does not work](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-build-fails-to-minify). I'm looking into changing the webpack config to transpile the dependencies (PR welcome... for the webpack experts in the audience 😃).
+- ~~~Does not work with UglifyJS, so [create-react-app's prod mode does not work](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-build-fails-to-minify). I'm looking into changing the webpack config to transpile the dependencies (PR welcome... for the webpack experts in the audience 😃).~~~ Fixed by forking and transpiling the router.
 - Needs tests
 
 
