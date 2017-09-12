@@ -1,6 +1,6 @@
 {
   "name": "todo-mvc-service",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "mock API for TodoMVC apps",
   "repository": "https://github.com/alexkrolick/todo-mvc-service",
   "main": "dist/todo-mvc-service.js",
@@ -17,7 +17,7 @@
   "author": "Alex Krolick",
   "license": "MIT",
   "dependencies": {
-    "find-my-way": "^1.4.1"
+    "find-my-way": "alexkrolick/find-my-way"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
